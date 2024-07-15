@@ -1,5 +1,5 @@
 # House-Price-Prediction-System
-House price prediction in Bangalore is crucial for informed investment decisions, helping buyers and investors navigate the dynamic real estate market. Accurate predictions support urban planning and policy-making, ensuring sustainable development in one of India's fastest-growing cities.House prices in Bangalore are growing rapidly, driven by the city's booming IT industry and increasing demand for residential properties. The real estate market has seen significant appreciation rates, making it a hotspot for both investors and homebuyers.In this project, we aim to predict the prices of houses in Bengaluru.
+House price prediction in Bangalore is crucial for informed investment decisions, helping buyers and investors navigate the dynamic real estate market. Accurate predictions support urban planning and policy-making, ensuring sustainable development in one of India's fastest-growing cities.House prices in Bangalore are growing rapidly, driven by the city's booming IT industry and increasing demand for residential properties. The real estate market has seen significant appreciation rates, making it a hotspot for both investors and homebuyers.In this project, my aim to predict the prices of houses in Bengaluru.
 
 # Dataset:  
  https://www.kaggle.com/amitabhajoy/bengaluru-house-price-data 
@@ -47,6 +47,27 @@ The 'balcony' column counts the number of balconies in each property. Important 
 
 **Price:**
 The 'price' column represents the sale price of properties in Bengaluru, directly reflecting their financial value and serving as the primary target for price prediction models.
+
+
+## Key Learnings
+
+In this project, I focused on several crucial aspects of building a machine learning model for house price prediction:
+
+### One-Hot Encoding
+One-hot encoding was utilized to transform categorical variables into a numerical format that machine learning algorithms can understand. This process ensures that the model can effectively process categorical data and derive meaningful insights from it.
+
+### Dimensionality Reduction
+I applied dimensionality reduction techniques to mitigate the curse of dimensionality, enhance model interpretability, and improve predictive accuracy. By focusing on the most relevant features, I optimized the performance of our model.
+
+### Model Building
+I employed k-fold cross-validation to ensure robust model evaluation. This technique involves partitioning the data into k subsets and training the model k times, each time using a different subset as the validation set and the remaining data for training. This helps in obtaining a more reliable estimate of the model's performance.
+
+### GridSearchCV
+GridSearchCV was used to determine the best algorithm and hyperparameters for our model. By exhaustively searching over a specified parameter grid, GridSearchCV identifies the optimal combination of parameters that yield the best performance.
+
+### Testing the Model
+After identifying the best model and parameters, I tested the model on a sample of properties to evaluate its predictive accuracy and reliability. This step ensures that the model performs Ill on unseen data, providing confidence in its practical application.
+
 
 
 
