@@ -40,6 +40,10 @@ df1.head()
 ![image](https://github.com/user-attachments/assets/d7bc2448-7cd1-4b15-82b2-9356bf564358)
 
 
+![image](https://github.com/user-attachments/assets/848798fa-613c-4a59-9655-544ad1a3235e)
+
+
+
 
 
 
