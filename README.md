@@ -54,6 +54,3 @@ The 'price' column represents the sale price of properties in Bengaluru, directl
 
 
 
-
-
-
