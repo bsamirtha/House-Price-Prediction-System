@@ -13,9 +13,9 @@ The dataset, downloaded from Kaggle, contains 13,322 rows and 9 columns.
  Outlier Detection
  One-Hot Encoding
  Model Building
-   - Cross-validation model
-   - Find the best model using GridSearchCV
-   - Test the model on a sample of properties
+  Cross-validation model
+  Find the best model using GridSearchCV
+  Test the model on a sample of properties
  Export the Model
 
 
