@@ -19,10 +19,12 @@ The dataset, downloaded from Kaggle, contains 13,322 rows and 9 columns.
   - Test the model on a sample of properties
 - **Export the Model**
 
-# Import Libraries
-   import pandas as pd
-   import numpy as np
-   import matplotlib.pyplot as plt
+# Import Libraries 
+
+#Import Libraries
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
 
 %matplotlib inline 
 
@@ -35,6 +37,12 @@ df1 = pd.read_csv(r"C:\Users\BS . AMIRTHA\Downloads\Bengaluru_House_Data.csv")
 
 #Exploring the dataset
 df1.head()
+![image](https://github.com/user-attachments/assets/d7bc2448-7cd1-4b15-82b2-9356bf564358)
+
+
+
+
+
 
 
 
