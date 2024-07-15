@@ -19,7 +19,7 @@ The dataset, downloaded from Kaggle, contains 13,322 rows and 9 columns.
   - Test the model on a sample of properties
 - **Export the Model**
 
-1.#Import Libraries
+#Import Libraries
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
