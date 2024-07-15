@@ -6,17 +6,19 @@ House price prediction in Bangalore is crucial for informed investment decisions
 The dataset, downloaded from Kaggle, contains 13,322 rows and 9 columns.
 
 # Plan of Action
- Import Libraries
- Data Cleaning
- Feature Engineering
- Dimensionality Reduction
- Outlier Detection
- One-Hot Encoding
- Model Building
-  Cross-validation model
-  Find the best model using GridSearchCV
-  Test the model on a sample of properties
- Export the Model
+
+- **Import Libraries**
+- **Data Cleaning**
+- **Feature Engineering**
+- **Dimensionality Reduction**
+- **Outlier Detection**
+- **One-Hot Encoding**
+- **Model Building**
+  - Cross-validation model
+  - Find the best model using GridSearchCV
+  - Test the model on a sample of properties
+- **Export the Model**
+
 
 
 
