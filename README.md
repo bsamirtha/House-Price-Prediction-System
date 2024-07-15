@@ -19,29 +19,34 @@ The dataset, downloaded from Kaggle, contains 13,322 rows and 9 columns.
   - Test the model on a sample of properties
 - **Export the Model**
 
-# Import Libraries 
+### Column Information and Relevance for Price Prediction
 
-#Import Libraries
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
+**Area Type:**
+The 'Area Type' column categorizes properties into Built-up Area, Carpet Area, Plot Area, and Super built-up Area. While it provides classification, the actual area size (total_sqft) more directly influences house prices than the type of area.
 
-%matplotlib inline 
+**Availability:**
+The 'Availability' column indicates when properties will be available, with entries like specific dates or statuses (e.g., Immediate Possession). While important for scheduling, availability status does not significantly affect property intrinsic value or pricing.
 
-#Set default figure size
-import matplotlib
-matplotlib.rcParams["figure.figsize"] = (15, 10)
+**Location:**
+The 'Location' column lists various localities in Bengaluru, influencing house prices due to varying demand and infrastructure. With 1305 unique values, location is crucial for predicting property values.
 
-#Importing the dataset
-df1 = pd.read_csv(r"C:\Users\BS . AMIRTHA\Downloads\Bengaluru_House_Data.csv")
+**Size:**
+The 'Size' column specifies the number of bedrooms (e.g., 1 BHK to 43 Bedroom). It directly indicates property size and significantly impacts house prices, making it essential for accurate price prediction.
 
-#Exploring the dataset
-df1.head()
-![image](https://github.com/user-attachments/assets/d7bc2448-7cd1-4b15-82b2-9356bf564358)
+**Society:**
+The 'Society' column lists residential community names. While providing specific details, it generally has less impact on house prices compared to broader factors like location and property size.
 
+**Total Square Feet (total_sqft):**
+The 'total_sqft' column denotes property size in square feet. Crucial for price prediction, it quantifies property area, a key determinant of property value in Bengaluru's real estate market.
 
-![image](https://github.com/user-attachments/assets/848798fa-613c-4a59-9655-544ad1a3235e)
+**Bath:**
+The 'bath' column indicates the number of bathrooms in each property. Significant for property value, more bathrooms typically enhance convenience and luxury, influencing pricing decisions.
 
+**Balcony:**
+The 'balcony' column counts the number of balconies in each property. Important for livability and attractiveness, properties with more balconies often command higher prices due to enhanced outdoor space and views.
+
+**Price:**
+The 'price' column represents the sale price of properties in Bengaluru, directly reflecting their financial value and serving as the primary target for price prediction models.
 
 
 
